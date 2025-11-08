@@ -15,7 +15,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';  // or './App.css'
 
 function App() {
-
   return (
     <>
      <ToastContainer
