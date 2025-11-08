@@ -15,13 +15,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';  // or './App.css'
 
 function App() {
-
+console.log("Rendering App"); 
   return (
     <>
        <div>
       <h1>Swift Kicks Shoes</h1>
       <p>Welcome to our store!</p>
-         console.log(h1);
     </div>
      <ToastContainer
         position="top-right"
