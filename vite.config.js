@@ -4,8 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-<<<<<<< HEAD
    base: '/Swift-Kicks-Shoes/',
-=======
->>>>>>> 879e776 (Initial commit)
 })
