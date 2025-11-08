@@ -21,6 +21,7 @@ function App() {
        <div>
       <h1>Swift Kicks Shoes</h1>
       <p>Welcome to our store!</p>
+         console.log(h1);
     </div>
      <ToastContainer
         position="top-right"
