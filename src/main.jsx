@@ -1,13 +1,15 @@
-import './index.css';
-import App from './App.jsx';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import { SearchProvider } from './context/SearchContext'; 
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import './index.css'  
+import { HashRouter } from "react-router-dom";
+import { SearchProvider } from "./context/SearchContext";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/Swift-Kicks-Shoes/">
-    <SearchProvider>  
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <HashRouter>
+    <SearchProvider>
       <App />
     </SearchProvider>
-  </BrowserRouter>
+  </HashRouter>
 );
+
