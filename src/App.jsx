@@ -18,6 +18,10 @@ function App() {
 
   return (
     <>
+       <div>
+      <h1>Swift Kicks Shoes</h1>
+      <p>Welcome to our store!</p>
+    </div>
      <ToastContainer
         position="top-right"
         autoClose={3000}
