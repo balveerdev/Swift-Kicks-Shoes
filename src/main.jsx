@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { SearchProvider } from './context/SearchContext'; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Swift-Kicks-Shoes/">
     <SearchProvider>  
       <App />
     </SearchProvider>
